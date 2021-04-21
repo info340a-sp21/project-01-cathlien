@@ -15,24 +15,17 @@ header {
 
 .purple-block {
     background-color: #4b2e83;
-    opacity: 88%;
+    opacity: 92%;
     align-self: center;
     width: 1000px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -30px;
+    margin-top: -50px;
     box-shadow: silver;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
 }
 
-.flex-container {
-    display: flex;
-  }
-  
+
 
 
 @media (min-width: 768px)
@@ -51,20 +44,28 @@ h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     position: relative;
-    top: 50%;
+    top: 30%;
 }
 
 h2 {
     font-size: 40px;
+    width: 20em;
+    margin:auto;
+    margin-top: 300px;
 }
 
 h3 {
-    font-size: 30px;
-    padding-bottom: 400em;
+    font-size: 35px;
 }
 
+.container {
+    display: flex;
+    padding-top: 3ch;
+}
+
+* { box-sizing: border-box; }
 
 
 
