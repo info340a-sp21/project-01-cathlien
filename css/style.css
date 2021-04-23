@@ -74,17 +74,17 @@ h5 {
     
 }
 
-.description {
+main {
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: left;
 }
 
-.description h5 {
+main h5 {
     color: #4b2e83;
 }
 
-.description p, li{
+main p, li{
     font-size: 1.2rem;
 }
 
