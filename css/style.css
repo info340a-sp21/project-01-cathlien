@@ -3,7 +3,6 @@ body {
     align-items: center;
 }
 
-
 footer {
     padding-top: 1rem;
     font-size: 80%;
@@ -38,7 +37,7 @@ header {
 }
 
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
@@ -59,6 +58,7 @@ h3 {
 }
 
 h4, h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;    
 }
 
@@ -76,7 +76,12 @@ h5 {
 
 .description {
     margin-left: 5rem;
+    margin-right: 5rem;
     text-align: left;
+}
+
+.description p, li{
+    font-size: 1.2rem;
 }
 
 .container {
