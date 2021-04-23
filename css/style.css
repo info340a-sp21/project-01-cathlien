@@ -25,6 +25,7 @@ header {
     box-shadow: silver;
 }
 
+
 @media (min-width: 768px)
 {
     header {
@@ -37,7 +38,7 @@ header {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
@@ -57,10 +58,47 @@ h3 {
     font-size: 35px;
 }
 
+h4, h5 {
+    color: black;    
+}
+
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+}
+
+h5 {
+    font-size: 25px;
+    text-align:left;
+    
+}
+
+.description {
+    margin-left: 5rem;
+    text-align: left;
+}
+
 .container {
     display: flex;
     padding-top: 3ch;
 }
+
+.topnav {
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    height: 20rem;  
+    background-repeat: no-repeat;
+}
+
+.topnav h2 {
+    display: block;
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
 
 * { box-sizing: border-box; }
 
