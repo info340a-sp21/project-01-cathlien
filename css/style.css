@@ -8,6 +8,10 @@ footer {
     font-size: 80%;
 }
 
+select {
+    max-width: 18rem;
+}
+
 .home {
     margin: .1em;
 }
