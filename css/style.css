@@ -8,7 +8,7 @@ footer {
     font-size: 80%;
 }
 
-header {
+.home {
     margin: .1em;
 }
 
@@ -26,8 +26,8 @@ header {
 
 
 @media (min-width: 768px)
-{
-    header {
+{   
+    .home {
         background-image: url('../img/1.jpg');
         background-position: center;
         background-size: cover;
@@ -78,6 +78,10 @@ h5 {
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: left;
+}
+
+.description h5 {
+    color: #4b2e83;
 }
 
 .description p, li{
