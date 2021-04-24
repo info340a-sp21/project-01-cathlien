@@ -23,18 +23,19 @@
     </header>
     
         <div class="purple-block"> 
-            
-            <h3>Majors in College of the Environment</h3>
+            <h3>Undergraduate Programs</h3>
         </div>
-        <div class="row justify-content-center">
-        <select class="custom-select custom-select-lg m-4">
-            <option selected>Filter</option>
-            <option value="1">Bachelor of Sciences</option>
-            <option value="2">Bachelor of Arts</option>
-            <option value="3">Capacity-contrained major</option>
-            <option value="4">Minimum major</option>
-            <option value="5">Open major</option>
-          </select>
+        <label for="filter">Choose a way to filter programs:</label>
+        <div class="row justify-content-center">         
+            
+            <select id="filter" class="custom-select custom-select-lg mb-6">
+                <option selected>No filter</option>
+                <option value="1">Bachelor of Sciences</option>
+                <option value="2">Bachelor of Arts</option>
+                <option value="3">Capacity-contrained major</option>
+                <option value="4">Minimum major</option>
+                <option value="5">Open major</option>
+              </select>
         </div>
         <div class="container">
             <div class="card-deck">
