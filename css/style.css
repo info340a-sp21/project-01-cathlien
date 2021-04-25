@@ -104,11 +104,6 @@ main p, li{
     text-align: center;
 }
 
-.return {
-    position: relative;
-    right: 600px;
-    top:20px
-}
 
 * { box-sizing: border-box; }
 
