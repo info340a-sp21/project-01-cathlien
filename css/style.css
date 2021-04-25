@@ -21,7 +21,7 @@ h1, h2, h3  {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     position: static;
     top: 50%;
     left: 50%;
@@ -147,6 +147,10 @@ select {
 
 
 @media (min-width: 1024px) {
+    h1 {
+        font-size: 80px;
+    }
+    
     main {
         margin-left: 40px;
         margin-right: 40px;
@@ -154,6 +158,10 @@ select {
 
     main p, li {
         font-size: 1.6rem;
+    }
+
+    .card p {
+        font-size: 1.4rem;
     }
 
     footer {
