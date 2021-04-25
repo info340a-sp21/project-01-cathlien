@@ -142,6 +142,13 @@ select {
     footer {
         font-size: 1rem;
     }
+
+    #small {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 200px;
+    }
     
 }
 
@@ -172,12 +179,18 @@ select {
         margin-top: 60px;
     }
 
-    .major-img {
+    #small {
+        display: none;
+    }
+
+    #big {
+        display: block;
+        width: 50%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
-        display: block;
-        height: 200px;
     }
+    
 
     .sidenav {
         background-color:#eee; 
