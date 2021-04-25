@@ -112,11 +112,22 @@ main p, li{
 
 * { box-sizing: border-box; }
 
+
 .major-img {
-    width: 660px;
     height: 200px;
     padding:0;
+    display: none;
+    align-self: auto;
 }
+
+@media (min-width: 768px) 
+{
+    .major-img {
+        display: block;
+    }
+}
+
+
 .sidenav {
     width: 280px;
     position:fixed;
