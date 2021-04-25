@@ -134,27 +134,32 @@ select {
     background-color:rgba(0, 128, 0, 0.322);
 }
 
+
 @media (min-width: 1024px) {
+    .topnav-major {
+        margin-top: 60px;
+    }
+
     .major-img {
         display: block;
         height: 200px;
     }
-}
 
-@media (min-width: 800px) {
     .sidenav {
         background-color:#eee; 
         position: fixed;
         top: 0px; 
         width: 100%;
+        left: 0px;
         transition: top 0.3s; 
+        padding: 10px;
     }
 
     .sidenav a {
-        display: block;
         color: green;
         text-align: center;
         display: inline;
         text-decoration: none;
     }
 }
+
