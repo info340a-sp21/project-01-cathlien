@@ -16,12 +16,12 @@ h1, h2, h3  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
-    font-size: 80px;
     position: relative;
     top: 30%;
 }
 
 h1 {
+    font-size: 80px;
     position: static;
     top: 50%;
     left: 50%;
@@ -43,7 +43,7 @@ h4, h5 {
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h5 {
@@ -134,13 +134,39 @@ select {
     background-color:rgba(0, 128, 0, 0.322);
 }
 
+@media (min-width: 768px) {
+    main p, li {
+        font-size: 1.4rem;
+    }
+    
+    footer {
+        font-size: 1rem;
+    }
+    
+}
+
 
 @media (min-width: 1024px) {
+    main {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    main p, li {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+
     .topnav-major {
         margin-top: 60px;
     }
 
     .major-img {
+        margin-left: auto;
+        margin-right: auto;
         display: block;
         height: 200px;
     }
@@ -161,5 +187,6 @@ select {
         display: inline;
         text-decoration: none;
     }
+
 }
 
