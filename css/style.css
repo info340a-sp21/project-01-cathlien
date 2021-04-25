@@ -1,5 +1,5 @@
 body {
-    font-family: "Gill Sans", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
 }
 
@@ -104,6 +104,11 @@ main p, li{
     text-align: center;
 }
 
+.return {
+    position: relative;
+    right: 600px;
+    top:20px
+}
 
 * { box-sizing: border-box; }
 
@@ -117,30 +122,26 @@ main p, li{
     height: 100%;
     position: sticky;
     z-index: 1;
-    top: 0;
     left: 20px;
     background: #eee;
-    opacity: 80%;
-    overflow-x: hidden;
-    padding: 8px 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
-    text-decoration: none;
+    text-decoration: ivory;
     font-size: 25px;
-    color: #2196F3;
+    color: green;
     display: block;
   }
   
   .sidenav a:hover {
-    color: #064579;
+    background-color:rgba(0, 128, 0, 0.322);
   }
   
   .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    margin-left: 140px; 
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
@@ -153,5 +154,10 @@ main p, li{
   .sidenav a:hover {
     background-color: rgba(0, 128, 0, 0.242);
   }
+
+h6 {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /*Photo by PhotoMIX Company from Pexels*/
