@@ -95,21 +95,21 @@ select {
     box-shadow: silver;
 }
 
-.topnav, .topnav-major {
+.top, .top-major {
     background-image: url('../img/1.jpg');
     background-size: cover;
     height: 20rem;  
     background-repeat: no-repeat;
 }
 
-.topnav h2 {
+.top h2 {
     color: white;
     margin: auto;
     margin-top: 0;
     text-align: center;
 }
 
-.topnav-major {
+.top-major {
     height: 200px;
     position: relative;
 }
@@ -157,6 +157,10 @@ select {
     h1 {
         font-size: 80px;
     }
+
+    h5 {
+        font-size: 1.7rem;
+    }
     
     main {
         margin-left: 40px;
@@ -175,15 +179,15 @@ select {
         font-size: 1.2rem;
     }
 
-    .topnav-major {
+    .top-major {
         margin-top: 60px;
     }
 
-    #small {
+    .small {
         display: none;
     }
 
-    #big {
+    .big {
         display: block;
         width: 50%;
         height: auto;
