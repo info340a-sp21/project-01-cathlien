@@ -23,7 +23,6 @@ h1, h2, h3  {
 h1 {
     font-size: 60px;
     position: static;
-    top: 50%;
     left: 50%;
 }
 
@@ -40,15 +39,11 @@ h3 {
 h4, h5 {
     color: #4b2e83;  
     text-align: left;  
-}
-
-h4 {
     font-size: 30px;
 }
 
 h5 {
     font-size: 25px;
-    text-align:left;
 }
 
 label {
@@ -142,8 +137,8 @@ select {
     footer {
         font-size: 1rem;
     }
-
-    #small {
+    
+    .small {
         margin-left: auto;
         margin-right: auto;
         display: block;
