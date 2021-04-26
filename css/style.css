@@ -36,7 +36,7 @@ h3 {
     font-size: 35px;
 }
 
-h4, h5 {
+h4, h5, h6{
     color: #4b2e83;  
     text-align: left;  
     font-size: 30px;
@@ -44,6 +44,14 @@ h4, h5 {
 
 h5 {
     font-size: 25px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+h7 {
+    font-size: 22px;
 }
 
 label {
