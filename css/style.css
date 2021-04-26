@@ -36,7 +36,7 @@ h3 {
     font-size: 35px;
 }
 
-h4, h5, h6{
+h4, h5, h6, .small-title{
     color: #4b2e83;  
     text-align: left;  
     font-size: 30px;
@@ -51,7 +51,7 @@ h6 {
 }
 
 .small-title {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 label {
