@@ -79,6 +79,10 @@ select {
     padding-top: 3ch;
 }
 
+.hide {
+    visibility: hidden;
+}
+
 
 .home {
     margin: .1em;
@@ -134,10 +138,6 @@ select {
     display: block;
 }
 
-.sidenav a:hover {
-    background-color:rgba(0, 128, 0, 0.322);
-}
-
 .main-nav {
     background-color: #eee;
     position: fixed;
@@ -147,10 +147,10 @@ select {
     transition: top 0.3s; 
     padding: 17px;
     z-index: 1;
-  }
+    }
   
   /* Style the links inside the navigation bar */
-  .main-nav a {
+.main-nav a {
     color: green;
     text-align: center;
     display: inline;
@@ -158,6 +158,9 @@ select {
     font-size: 20px;
 }
 
+.sidenav a:hover {
+    background-color:rgba(0, 128, 0, 0.322);
+}
 
 @media (min-width: 768px) {
     main p, li {

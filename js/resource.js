@@ -1,5 +1,5 @@
 'use strict';
-
+/* global d3 */
 let formElem = document.querySelector('form');
 let tableBody = document.querySelector('tbody');
 
