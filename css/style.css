@@ -79,11 +79,6 @@ select {
     padding-top: 3ch;
 }
 
-.hide {
-    visibility: hidden;
-}
-
-
 .home {
     margin: .1em;
 }
