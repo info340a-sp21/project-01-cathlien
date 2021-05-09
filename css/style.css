@@ -21,9 +21,9 @@ h1, h2, h3  {
 }
 
 h1 {
-    font-size: 60px;
     position: static;
     left: 50%;
+    font-size: 80px;
 }
 
 h2 {
@@ -103,6 +103,7 @@ select {
     background-size: cover;
     height: 20rem;  
     background-repeat: no-repeat;
+    margin-top: 60px
 }
 
 .top h2 {
@@ -220,3 +221,21 @@ select {
 
 }
 
+.main-nav {
+    background-color: #eee;
+    position: fixed;
+    top: 0px; 
+    width: 100%;
+    left: 0px;
+    transition: top 0.3s; 
+    padding: 17px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .main-nav a {
+    color: green;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+}
