@@ -13,6 +13,8 @@
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    
+
 </head>
 <body>
     <header>
@@ -132,5 +134,14 @@
                 <a href="https://www.iconfinder.com/icons/1936907/eco_environment_green_leaves_nature_recycle_recycling_icon">
                 <cite>Iconfinder</cite></a>. Cover image from <a href="https://unsplash.com/s/photos/green-leaf"><cite>Unsplash</cite></a></p>
         </footer>
+        <script src="https://d3js.org/d3-dsv.v2.min.js"></script>
+        <script src="https://d3js.org/d3-fetch.v2.min.js"></script>
+        <script>
+        
+        d3.csv("/data/grad-students.csv").then(function(data) {
+          console.log(data); // [{"Hello": "world"}, …]
+        });
+        
+        </script>
 </body>
 </html>
