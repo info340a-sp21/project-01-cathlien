@@ -39,7 +39,7 @@ h3 {
 h4, h5, h6, .small-title{
     color: #4b2e83;  
     text-align: left;  
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h5 {
@@ -81,6 +81,10 @@ select {
 
 .home {
     margin: .1em;
+}
+
+.card-columns {
+    column-count: 2;
 }
 
 .major-img {
@@ -153,9 +157,11 @@ select {
     font-size: 20px;
 }
 
+
 .sidenav a:hover {
     background-color:rgba(0, 128, 0, 0.322);
 }
+
 
 @media (min-width: 768px) {
     main p, li {
@@ -218,7 +224,6 @@ select {
         margin-left: auto;
         margin-right: auto;
     }
-    
 
     .sidenav {
         background-color:#eee; 

@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <title>ExploreUW: College of the Environment</title>
     <meta name="author" content="Catherine Lien, Jessie Chen">
     <meta name="description" content="Home page for the ExploreUW app for College of the Environment">
-    <link rel="icon" 
-      type="image/png" 
-      href="img/favicon.png">
-    <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
-    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
-    crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    
+
 
 </head>
+
 <body>
     <header>
         <div class="top">
-        <h1>ExploreUW</h1>
-        <h2>UW College of the Environment</h2>
+            <h1>ExploreUW</h1>
+            <h2>UW College of the Environment</h2>
         </div>
     </header>
 
-        <div class="purple-block" aria-label="a purple rectangular block"> 
-            <h3>Undergraduate Programs</h3>
-        </div>
-        <div class="main-nav"  role="navigation">
-            <a href="resources.html">Additional resources</a>
-          </div>
-        <main>
-        <form>
+    <div class="purple-block" aria-label="a purple rectangular block">
+        <h3>Undergraduate Programs</h3>
+    </div>
+    <div class="main-nav" role="navigation">
+        <a href="resources.html">Additional resources</a>
+    </div>
+    <form>
         <label for="filter">Choose a way to filter programs:</label>
-        <div class="row justify-content-center">         
-            
+        <div class="row justify-content-center">
+
             <select id="filter" class="custom-select custom-select-lg mb-6">
                 <option selected>No filter</option>
                 <option value="1">Bachelor of Sciences</option>
@@ -42,102 +39,123 @@
                 <option value="3">Capacity-contrained major</option>
                 <option value="4">Minimum major</option>
                 <option value="5">Open major</option>
-              </select>
+            </select>
         </div>
-        </form>
-        <div class="container">
-            <div class="card-deck">
-                <div class="row">
-                    <div class="card m-4 bs minor open" style="width: 35rem;">
-                        <img class="card-img-top" src="img/fishh.jpg" alt="fish in the ocean">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Aquatic and Fishery Sciences</h4>
-                            <p class="card-text text-center"> B.S., Minor </p>
-                        </div>
-                        <a href="aquatic.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/TiTblwCHZFY"><cite>Unsplash</cite></a></div>
-                    </div>
-                    <div class="card m-4 bs minor min" style="width: 35rem;">
-                        <img class="card-img-top" src="img/atmosphere.jpg" alt="clouds">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Atmospheric Sciences</h4>
-                            <p class="card-text text-center"> B.S., Minor </p>
-                        </div>
-                        <a href="atmospheric.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/zrj-TPjcRLA"><cite>Unsplash</cite></a></div>
-                    </div>
+    </form>
+    <div class="container">
+        <div class="card-columns">
+            <div class="card text-center m-4 bs minor open">
+                <img class="card-img-top" src="img/fishh.jpg" alt="fish in the ocean">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Aquatic and Fishery Sciences</h4>
+                    <p class="card-text text-center"> B.S., Minor </p>
+                    <a href="aquatic.html" class="btn btn-outline-success" role="button">Learn more</a>
                 </div>
-                <div class="row">
-                    <div class="card m-4 bs minor cap" style="width: 35rem;">
-                        <img class="card-img-top" src="img/bioresource.jpg" alt="laboratory tubes">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Bioresource Science and Engineering</h4>
-                            <p class="card-text text-center"> B.S., Minor </p>
-                        </div>
-                        <a href="bioresource.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/2fyeLhUeYpg"><cite>Unsplash</cite></a></div>
-                    </div>
-                    <div class="card m-4 ba bs minor open" style="width: 35rem;">
-                        <img class="card-img-top" src="img/earth.jpg" alt="earth from space">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Earth and Space Sciences</h4>
-                            <p class="card-text text-center"> B.A., B.S., Minor </p>
-                        </div>
-                        <a href="earth.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/NuE8Nu3otjo"><cite>Unsplash</cite></a></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card m-4 bs minor open" style="width: 35rem;">
-                        <img class="card-img-top" src="img/resource.jpg" alt="environment">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Environmental Science & Terrestrial Resource Management</h4>
-                            <p class="card-text text-center"> B.S., Minor </p>
-                        </div>
-                        <a href="resource.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/YoelVcKWmws"><cite>Unsplash</cite></a></div>
-                    </div>
-                    <div class="card m-4 ba minor open" style="width: 35rem;">
-                        <img class="card-img-top" src="img/hill.jpg" alt="a hill with windmills">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Environmental Studies</h4>
-                            <p class="card-text text-center"> B.A., Minor </p>
-                        </div>
-                        <a href="environmental.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/x1w_Q78xNEY"><cite>Unsplash</cite></a></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card m-4 bs minor open" style="width: 35rem;">
-                        <img class="card-img-top" src="img/marine bio.jpg" alt="marine biology">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Marine Biology</h4>
-                            <p class="card-text text-center"> B.S., Minor </p>
-                        </div>
-                        <a href="marine.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/z8RRXzmZr8g"><cite>Unsplash</cite></a></div>
-                    </div>
-                    <div class="card m-4 ba bs minor open" style="width: 35rem;" >
-                        <img class="card-img-top" src="img/o.jpg" alt="Ocean">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Oceanography</h4>
-                            <p class="card-text text-center"> B.A., B.S., Minor </p>
-                        </div>
-                        <a href="oceanography.html" class="btn btn-outline-success" role="button">Learn more</a>
-                        <div class="card-footer text-center text-muted">Image from <a href="https://unsplash.com/photos/JR6SBxwF1dU"><cite>Unsplash</cite></a></div>
-                    </div>
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/TiTblwCHZFY"><cite>Unsplash</cite></a>
                 </div>
             </div>
+            <div class="card text-center m-4 bs minor min">
+                <img class="card-img-top" src="img/atmosphere.jpg" alt="clouds">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Atmospheric Sciences</h4>
+                    <p class="card-text text-center"> B.S., Minor </p>
+                    <a href="atmospheric.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/zrj-TPjcRLA"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+
+            <div class="card text-center m-4 bs minor cap">
+                <img class="card-img-top" src="img/bioresource.jpg" alt="laboratory tubes">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Bioresource Science and Engineering</h4>
+                    <p class="card-text text-center"> B.S., Minor </p>
+                    <a href="bioresource.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/2fyeLhUeYpg"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+            <div class="card text-center m-4 ba bs minor open">
+                <img class="card-img-top" src="img/earth.jpg" alt="earth from space">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Earth and Space Sciences</h4>
+                    <p class="card-text text-center"> B.A., B.S., Minor </p>
+                    <a href="earth.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/NuE8Nu3otjo"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+            <div class="card text-center m-4 bs minor open">
+                <img class="card-img-top" src="img/resource.jpg" alt="environment">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Environmental Science & Terrestrial Resource Management</h4>
+                    <p class="card-text text-center"> B.S., Minor </p>
+                    <a href="resource.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/YoelVcKWmws"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+            <div class="card text-center m-4 ba minor open">
+                <img class="card-img-top" src="img/hill.jpg" alt="a hill with windmills">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Environmental Studies</h4>
+                    <p class="card-text text-center"> B.A., Minor </p>
+                    <a href="environmental.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/x1w_Q78xNEY"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+
+
+            <div class="card text-center m-4 bs minor open">
+                <img class="card-img-top" src="img/marine bio.jpg" alt="marine biology">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Marine Biology</h4>
+                    <p class="card-text text-center"> B.S., Minor </p>
+                    <a href="marine.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/z8RRXzmZr8g"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+            <div class="card text-center m-4 ba bs minor open">
+                <img class="card-img-top" src="img/o.jpg" alt="Ocean">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Oceanography</h4>
+                    <p class="card-text text-center"> B.A., B.S., Minor </p>
+                    <a href="oceanography.html" class="btn btn-outline-success" role="button">Learn more</a>
+                </div>
+
+                <div class="card-footer text-center text-muted">Image from <a
+                        href="https://unsplash.com/photos/JR6SBxwF1dU"><cite>Unsplash</cite></a>
+                </div>
+            </div>
+
         </div>
-    </main>
-        <footer class="text-center">
-            <p>
-                Authors: Catherine Lien, Jessie Chen. Information from <a href="https://www.washington.edu/students/gencat/academic/college_environment.html">
-                <cite>UW Degree Program</cite>.</a> Favicon from 
-                <a href="https://www.iconfinder.com/icons/1936907/eco_environment_green_leaves_nature_recycle_recycling_icon">
-                <cite>Iconfinder</cite></a>. Cover image from <a href="https://unsplash.com/s/photos/green-leaf"><cite>Unsplash</cite></a></p>
-        </footer>
-        <!-- Javascript -->
-        <script src="js/index.js"></script>
+    </div>
+    <footer class="text-center">
+        <p>
+            Authors: Catherine Lien, Jessie Chen. Information from <a
+                href="https://www.washington.edu/students/gencat/academic/college_environment.html">
+                <cite>UW Degree Program</cite>.</a> Favicon from
+            <a
+                href="https://www.iconfinder.com/icons/1936907/eco_environment_green_leaves_nature_recycle_recycling_icon">
+                <cite>Iconfinder</cite></a>. Cover image from <a
+                href="https://unsplash.com/s/photos/green-leaf"><cite>Unsplash</cite></a>
+        </p>
+    </footer>
+    <!-- Javascript -->
+    <script src="js/index.js"></script>
 </body>
+
 </html>
