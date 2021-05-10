@@ -101,12 +101,16 @@ select {
     box-shadow: silver;
 }
 
+.top {
+    margin-top: 50px;
+}
+
 .top, .top-major {
     background-image: url('../img/1.jpg');
     background-size: cover;
     height: 20rem;  
     background-repeat: no-repeat;
-    margin-top: 60px;
+    
 }
 
 .top h2 {
@@ -206,10 +210,6 @@ select {
 
     footer {
         font-size: 1.2rem;
-    }
-
-    .top-major {
-        margin-top: 60px;
     }
 
     .small-img {
