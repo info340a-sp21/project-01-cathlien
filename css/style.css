@@ -149,7 +149,8 @@ select {
     left: 0px;
     transition: top 0.3s; 
     padding: 10px;
-    }
+    z-index: 1;
+}
   
   /* Style the links inside the navigation bar */
 .main-nav a {
