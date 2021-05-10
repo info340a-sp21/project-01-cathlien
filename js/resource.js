@@ -3,6 +3,7 @@
 let formElem = document.querySelector('form');
 let tableBody = document.querySelector('tbody');
 
+/* When the button is clicked, displays the data */
 formElem.addEventListener('submit', function(event){
     event.preventDefault();
     loadData();
@@ -11,6 +12,7 @@ formElem.addEventListener('submit', function(event){
     toggleLoading();
 });
 
+/* Shows that the data is loading, then displays the data in a table. If there is an error, displays an error message. */
 function loadData() {
     let promise = d3.csv("data/grad-students.csv").then(function(data) {
         toggleLoading();
@@ -31,6 +33,7 @@ function loadData() {
     
 }
 
+/* Creates the header for the table */
 function createTableHeader() {
     let table = document.querySelector('thead');
     table.appendChild(createHeader("Major"));
@@ -39,6 +42,7 @@ function createTableHeader() {
     table.appendChild(createHeader("Graduates Median Wages ($)"))
 }
 
+/* Creates the header with the given text */
 function createHeader(text) {
     let header = document.createElement('th');
     header.setAttribute("scope", "col");
@@ -46,12 +50,14 @@ function createHeader(text) {
     return header;
 }
 
+/* Creates and returns a data cell with the given text inside the cell */
 function createRowNode(text) {
     let node = document.createElement('td');
     node.textContent = text;
     return node;
 }
 
+/* Displays or hides the loading data message */
 function toggleLoading() {
     let load = document.querySelector('.alert');
     if (load.classList.contains("d-none")) {
@@ -59,12 +65,12 @@ function toggleLoading() {
     } else {
         load.classList.add("d-none");
     }
-    
 }
 
+/* Displays an error message */
 function renderError(error) {
     let message = document.createElement('div');
     message.classList.add("alert", "alert-danger");
     message.textContent = error.message;
     document.querySelector(".table").appendChild(message);
-  }
+}

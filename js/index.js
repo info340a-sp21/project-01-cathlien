@@ -1,10 +1,12 @@
 'use strict';
 
+/* When the user changes a  dropdown menu is changed, changes the cards on the screen */
 let form = document.querySelector('form');
 form.addEventListener('change', function() {
     filterMajors();
 });
 
+/* Displays and hides cards depending on what the user selected */
 function filterMajors() {
     let menu = document.querySelector('select');
     let selected = menu.options[menu.selectedIndex].text;
