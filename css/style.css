@@ -162,10 +162,21 @@ select {
     text-align: center;
     display: inline;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
+.card {
+    border-radius: 25px;
+}
+.card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
+.card-footer {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 .sidenav a:hover, .main-nav a:hover {
     background-color:rgba(0, 128, 0, 0.322);
 }
