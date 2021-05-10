@@ -106,7 +106,7 @@ select {
     background-size: cover;
     height: 20rem;  
     background-repeat: no-repeat;
-    margin-top: 60px
+    margin-top: 60px;
 }
 
 .top h2 {
@@ -138,14 +138,13 @@ select {
 }
 
 .main-nav {
-    background-color: #eee;
+    background-color:#eee; 
     position: fixed;
     top: 0px; 
     width: 100%;
     left: 0px;
     transition: top 0.3s; 
-    padding: 17px;
-    z-index: 1;
+    padding: 10px;
     }
   
   /* Style the links inside the navigation bar */
@@ -223,23 +222,6 @@ select {
         height: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .sidenav {
-        background-color:#eee; 
-        position: fixed;
-        top: 0px; 
-        width: 100%;
-        left: 0px;
-        transition: top 0.3s; 
-        padding: 10px;
-    }
-
-    .sidenav a {
-        color: green;
-        text-align: center;
-        display: inline;
-        text-decoration: none;
     }
 
 }
