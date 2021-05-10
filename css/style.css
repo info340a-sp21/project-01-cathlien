@@ -102,11 +102,16 @@ select {
     width: 100%;
     height: 90px;
     margin-top: -50px;
-    box-shadow: silver;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .top {
     margin-top: 50px;
+}
+
+.filter-label{
+    padding-top: 10px;
+    font-size: 30px;
 }
 
 .top, .top-major {
@@ -116,6 +121,7 @@ select {
     background-repeat: no-repeat;
     
 }
+
 
 .top h2 {
     color: white;
