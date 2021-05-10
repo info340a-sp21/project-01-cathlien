@@ -21,6 +21,7 @@ h1, h2, h3  {
 }
 
 h1 {
+    top: 35px;
     position: static;
     left: 50%;
     font-size: 80px;
@@ -111,7 +112,7 @@ select {
 .top, .top-major {
     background-image: url('../img/1.jpg');
     background-size: cover;
-    height: 20rem;  
+    height: 23rem;  
     background-repeat: no-repeat;
     
 }
