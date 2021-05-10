@@ -90,7 +90,10 @@ select {
 .major-img {
     display: none;
 }
-
+.resources {
+    margin-left: 320px;
+    margin-top: 10px;
+}
 .purple-block {
     background-color: #4b2e83;
     opacity: 92%;
